@@ -21,7 +21,7 @@
 .nav-colors{
   color: rgb(0, 0, 0);
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .div-1{
@@ -45,7 +45,7 @@
 .pro-header{
   font-size: 40px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 
@@ -69,7 +69,7 @@
 
 .btn1{
   width: 130px; 
-    background-color: #756262;
+    background-color: #B6A98C;
     height: 40px;
     margin-top: 20px;
     border: none;
@@ -113,7 +113,7 @@
 
 .header-A{
   padding-top: 60px;
-  font-size: 76px;
+  font-size: 56px;
   font-family: inter;
 }
 
@@ -125,6 +125,12 @@
 
 .mail-m{
   display: none;
+}
+
+.img-footer{
+  width: 45px;
+  height: 45px;
+  padding-left: 3px;
 }
 
 
@@ -151,6 +157,7 @@
 
   .con1{
     margin-top: 10px;
+    padding: 0px 20px;
     /* width: 80%; */
   }
 
@@ -165,23 +172,23 @@
   }
 
   .btn1{
-    width: 130px; 
-      background-color: #631515;
-      height: 60px;
+    width: 110px; 
+      background-color: #B6A98C;
+      height: 30px;
       border: none;
       border-radius: 5px;
   }
 
   .header-A{
     padding-top: 60px;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 300;
     font-family: inter;
   }
 
   .p2{
-    font-size: 20px;
+    font-size: 25px;
     width: 100%;
     text-align: none;
     font-family: inter;
@@ -193,13 +200,13 @@
 
   .img3b{
     display: block;
-    padding-top: 60px;
+    padding-top: 50px;
     height: 100%;
     margin: auto;
   }
 
   .header-footer{
-    font-size: 30px;
+    font-size: 25px;
     padding-left: 10px;
     font-weight: 500;
     padding-top: 20px;
@@ -219,16 +226,21 @@
 
   .p2-con{
     text-align: left;
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .footer1{
     background: #B6A98C;
-    height: 250px;
+    height: 180px;
   }
 
   .mail-m{
     display: inline-block;
+  }
+
+  .img-footer{
+    width: 10%;
+    height: 10%;
   }
 
 }

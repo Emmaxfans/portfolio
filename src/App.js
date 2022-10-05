@@ -85,7 +85,7 @@ function App() {
       <div className="col-lg-4 pt-3 pb-3">
       <img src="./12765.jpg" alt="" className="img-fluid "/>
     
-    </div>
+     </div>
     <div className="col-lg-4 pt-3 pb-3">
     <img src="./12765.jpg" alt="" className="img-fluid"/>
     
@@ -99,7 +99,7 @@ function App() {
     
     
     <footer className="footer1">
-      <header className="header-footer" id="contact">Contact me</header>
+      <header className="header-footer" id="contact">Contact</header>
     
       <div className="Container container-fluid">
     
@@ -108,7 +108,7 @@ function App() {
         <div className="col-lg-6">
         <div className="p1-con">
           <p className="">Email at</p>
-          <a href='mailto:Emmaxfans@gmail.com'><img src="./email (1).png" alt="twitter"/></a>
+          <a href='mailto:Emmaxfans@gmail.com'><img src="./email (1).png" alt="twitter" className='img-footer'/></a>
         </div>
         </div>
     
@@ -116,10 +116,10 @@ function App() {
     
           <p className="p2-con">Reach Me via social media</p>
           <div className="p2-con">
-        <a href='https://twitter.com/_Emmaxfans'><img src="./twitter (1).png" alt="twitter" className="px-1"/></a>
-        <a href='https://facebook.com'><img src="./facebook (2).png" alt="twitter" className="px-1"/></a>
-        <a href='https://github.com/Emmaxfans'><img src="./github (1).png" alt="twitter" className="px-1"/></a>
-        <a href='mailto:Emmaxfans@gmail.com'><img src="./email (1).png" alt="twitter" className="mail-m px-1"/></a>
+        <a href='https://twitter.com/_Emmaxfans'><img src="./twitter (1).png" alt="twitter" className="img-footer"/></a>
+        <a href='https://facebook.com'><img src="./facebook (2).png" alt="twitter" className="img-footer"/></a>
+        <a href='https://github.com/Emmaxfans'><img src="./github (1).png" alt="twitter" className="img-footer"/></a>
+        <a href='mailto:Emmaxfans@gmail.com'><img src="./email (1).png" alt="twitter" className="mail-m img-footer"/></a>
         </div>
        
         </div>

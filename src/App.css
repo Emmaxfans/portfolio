@@ -128,8 +128,12 @@
 a{
   text-decoration: none;
   font-size: 20px;
+  color: black;
 }
 
+/* a:hover{
+  color: aliceblue;
+} */
 /* project container */
 
 .con-column{
@@ -149,6 +153,7 @@ a{
   }
   a{
     text-decoration: none;
+    color: black;
   }
 
   .con1{

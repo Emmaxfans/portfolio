@@ -68,7 +68,7 @@ function App() {
     
         
         <header className="header-A" id="about">About Me</header>
-        <p className='p2'>My name is Emmanuel Adewoye, i am a certified frontend delevoper. proficient in the use of html,css,javascript and reactJs in building a web Application</p>
+        <p className='p2'>My name is Emmanuel Adewoye, i am a certified frontend delevoper. proficient in the use of html,css,javascript and reactJs in building web Applications</p>
         </div>
         <div className="col-lg-4">
           {/* <img src='' alt='#' className="img3 img-fluid"/> */}

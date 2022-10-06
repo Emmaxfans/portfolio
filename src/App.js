@@ -70,7 +70,7 @@ function App() {
     
         
         <header className="header-A" id="about">About Me</header>
-        <p className='p2'>My name is Emmanuel Adewoye, i am a certified frontend delevoper. proficient in the use of html,css,javascript and reactJs in building web Applications.</p>
+        <p className='p2'>My name is Emmanuel Adewoye, I am a certified frontend delevoper. proficient in the use of html,css,javascript and reactJs in building web Applications.</p>
         </div>
         <div className="col-lg-4">
           {/* <img src='.\Hand coding-amico.png' alt='#' className="img3 img-fluid"/> */}
@@ -122,7 +122,7 @@ function App() {
     
         <div className="col-lg-6">
     
-          <p className="p2-con">Reach Me via social media</p>
+          <p className="p2-con">Reach Me via</p>
           <div className="p2-con">
         <a href='https://twitter.com/_Emmaxfans'><img src="./twitter (1).png" alt="twitter" className="img-footer"/></a>
         <a href='https://facebook.com'><img src="./facebook (2).png" alt="twitter" className="img-footer"/></a>

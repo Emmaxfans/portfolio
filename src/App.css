@@ -8,7 +8,7 @@
 
 
 .con1{
-  margin-top: 90px;
+  margin-top: 50px;
 }
 
 .navbar-collapse{
@@ -34,8 +34,8 @@
 }
 
 .footer1{
-  background: #B6A98C;
-  height: 250px;
+  background: #a15ca1;
+  height: 270px;
 }
 
 .pro-header{
@@ -51,7 +51,11 @@
   padding-left: 180px;
   font-weight: 500;
   padding-top: 20px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+}
+
+.hr1{
+  border: 1px solid #000000;
 }
 
 .p2-con{
@@ -65,7 +69,7 @@
 
 .btn1{
   width: 130px; 
-    background-color: #B6A98C;
+    background-color: #a15ca1;
     height: 40px;
     margin-top: 20px;
     border: none;
@@ -88,6 +92,11 @@
   font-weight: 400;
   text-align: left;
   font-family: inter;
+}
+
+.img1a{
+  /* background: #a15ca1; */
+  border-radius: 30px;
 }
 
 .img3{
@@ -146,12 +155,16 @@ a{
   height: 400px;
 }
 
+.pro-img{
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 680px){
 
   .body{
     width: 100%;
   }
-  a{
+ .btn1 a{
     text-decoration: none;
     color: black;
   }
@@ -168,14 +181,19 @@ a{
   .div-1{
     padding-top: 30px;
     padding-right: 150px;
+    padding-top: none;
   }
 
   .btn1{
-    width: 110px; 
-      background-color: #B6A98C;
+      width: 110px;
       height: 30px;
       border: none;
       border-radius: 5px;
+  }
+
+  .h-2{
+    font-size: 30px;
+    font-weight: 500;
   }
 
   .header-A{
@@ -194,11 +212,14 @@ a{
   }
 
   .img3{
-    display: none;
+    /* display: none; */
+    padding-top: 50px;
+    height: 350px;
+    margin: auto;
   }
 
   .img3b{
-    display: block;
+    display: none;
     padding-top: 50px;
     height: 350px;
     margin: auto;
@@ -209,6 +230,7 @@ a{
     padding-left: 10px;
     font-weight: 500;
     padding-top: 20px;
+    /* margin-top: 50px; */
     margin-bottom: 10px;
   }
 
@@ -229,8 +251,8 @@ a{
   }
 
   .footer1{
-    background: #B6A98C;
-    height: 180px;
+    /* background: #B6A98C; */
+    height: 230px;
   }
 
   .mail-m{

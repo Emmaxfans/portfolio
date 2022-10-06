@@ -7,8 +7,8 @@ function App() {
     <nav className="navbar navbar-expand-lg navbar-light">
     <div className="container-fluid">
     <a className="navbar-brand text-white" href="/#">   
-    {/* <img className='img1a img-fluid' src='.\foodhub\bibimbap.png' alt='###'/> */}
-    {/* <h5 className='foodhub'>FOODHUB</h5> */}
+    <img className='img1a img-fluid' src='.\letter-e.png' alt='###'/>
+    {/* <h5 className='foodhub'>Emmaxfans</h5> */}
     </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
@@ -51,11 +51,13 @@ function App() {
       </div>
     
       </div>
-    
-      
+
       <div className="col-lg-4">
-      <img className="img3 img-fluid" src="./IMG_8588.PNG" alt="#"/>
+        
+      {/* <img className="img3 img-fluid" src="./IMG_8588.PNG" alt="#"/> */}
       <img className="img3b img-fluid" src="./IMG_8589 (1).PNG" alt="#"/>
+
+      <img src='.\Hand coding-amico.png' alt='#' className="img3 img-fluid"/>
     
       </div>
     
@@ -68,10 +70,14 @@ function App() {
     
         
         <header className="header-A" id="about">About Me</header>
-        <p className='p2'>My name is Emmanuel Adewoye, i am a certified frontend delevoper. proficient in the use of html,css,javascript and reactJs in building web Applications</p>
+        <p className='p2'>My name is Emmanuel Adewoye, i am a certified frontend delevoper. proficient in the use of html,css,javascript and reactJs in building web Applications.</p>
         </div>
         <div className="col-lg-4">
-          {/* <img src='' alt='#' className="img3 img-fluid"/> */}
+          {/* <img src='.\Hand coding-amico.png' alt='#' className="img3 img-fluid"/> */}
+
+          {/* <video src='.\Hand coding.mp4'/> */}
+
+          
       </div>
       
       </div>
@@ -79,15 +85,15 @@ function App() {
       <div className="row mb-5">
       <header className="pro-header" id="project">Projects</header>
       <div className="col-lg-4 pt-3 pb-3">
-      <img src="./12765.jpg" alt="" className="img-fluid"/> 
+      <img src="./12765.jpg" alt="" className="img-fluid pro-img"/> 
     
       </div>
       <div className="col-lg-4 pt-3 pb-3">
-      <img src="./12765.jpg" alt="" className="img-fluid "/>
+      <img src="./12765.jpg" alt="" className="img-fluid pro-img"/>
     
      </div>
     <div className="col-lg-4 pt-3 pb-3">
-    <img src="./12765.jpg" alt="" className="img-fluid"/>
+    <img src="./12765.jpg" alt="" className="img-fluid pro-img"/>
     
     </div>
     
@@ -100,6 +106,8 @@ function App() {
     
     <footer className="footer1">
       <header className="header-footer" id="contact">Contact</header>
+
+      <hr className='hr1'/>
     
       <div className="Container container-fluid">
     
@@ -126,6 +134,8 @@ function App() {
     
       </div>
       </div>
+
+      <p className='text-center mt-4 fs-5'>&copy; Created by Emmaxfans</p>
     
     </footer>
     

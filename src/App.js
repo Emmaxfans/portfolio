@@ -85,24 +85,21 @@ function App() {
       <div className="row mb-5">
       <header className="pro-header" id="project">Projects</header>
       <div className="col-lg-4 pt-3 pb-3">
-      <img src="./12765.jpg" alt="" className="img-fluid pro-img"/> 
+      <img src="./food-landing.png" alt="food-interface" className="img-fluid pro-img"/> 
     
       </div>
       <div className="col-lg-4 pt-3 pb-3">
-      <img src="./12765.jpg" alt="" className="img-fluid pro-img"/>
+      <img src="./food-landing.png" alt="food-interface" className="img-fluid pro-img"/> 
     
      </div>
     <div className="col-lg-4 pt-3 pb-3">
-    <img src="./12765.jpg" alt="" className="img-fluid pro-img"/>
+    <img src="./food-landing.png" alt="food-interface" className="img-fluid pro-img"/> 
     
     </div>
     
     </div>
     
     </div>
-    
-    
-    
     
     <footer className="footer1">
       <header className="header-footer" id="contact">Contact</header>

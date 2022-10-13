@@ -110,17 +110,21 @@ function App() {
     
       <div className="row">
        
-        <div className="col-lg-6">
+        <div className="col-lg-4">
         <div className="p1-con">
-          <p className="">Email at</p>
+          <p className="fs-5">Email at:</p>
           <a href='mailto:Emmaxfans@gmail.com'><img src="./email (1).png" alt="twitter" className='img-footer'/></a>
         </div>
         </div>
+
+        <div className="col-lg-4">
+        <p className='text-center fs-5 create-footer'>&copy; Created by Emmaxfans</p>
+        </div>
     
-        <div className="col-lg-6">
+        <div className="col-lg-4">
     
-          <p className="p2-con">Reach Me via</p>
-          <div className="p2-con">
+          <p className="p2-con fs-5">Reach Me via</p>
+        <div className="p2-con">
         <a href='https://twitter.com/_Emmaxfans'><img src="./twitter (1).png" alt="twitter" className="img-footer"/></a>
         <a href='https://facebook.com'><img src="./facebook (2).png" alt="twitter" className="img-footer"/></a>
         <a href='https://github.com/Emmaxfans'><img src="./github (1).png" alt="twitter" className="img-footer"/></a>
@@ -130,11 +134,14 @@ function App() {
         </div>
     
       </div>
-      </div>
 
-      <p className='text-center mt-4 fs-5'>&copy; Created by Emmaxfans</p>
+      <div className="col-lg-4">
+        <p className='text-center create-footer2'>&copy; Created by Emmaxfans</p>
+        </div>
+
+    </div>
     
-    </footer>
+  </footer>
     
     </div>
   );

@@ -1,14 +1,33 @@
+import React from 'react';
 import './App.css';
+// import { Link } from 'react-router-dom'
+// import data from './Component/ContainerPro';
+// import PortfolioCard from './Component/PortfolioCard';
+import metabnb from './images/meta-bnb.png'
+import logo from './images/letter-e.png'
+import handcoding from './images/hand-coding.png'
+import foodhub from './images/food-landing.png'
+import email from './images/email.png'
+import facebook from './images/facebook.png'
+import twitter from './images/twitter.png'
+import github from './images/github.png'
 
-function App() {
+
+export default function App() {
+  // const dataSet = data.map(function(items){
+  //   return(
+  //     <PortfolioCard 
+  //     {...items}/>
+  //   )
+  // })
+
   return (
     <div className="body">
   
     <nav className="navbar navbar-expand-lg navbar-light">
     <div className="container-fluid">
     <a className="navbar-brand text-white" href="/#">   
-    <img className='img1a img-fluid' src='.\letter-e.png' alt='###'/>
-    {/* <h5 className='foodhub'>Emmaxfans</h5> */}
+    <img className='img1a img-fluid' src={logo} alt='profile-logo'/>
     </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
@@ -55,9 +74,9 @@ function App() {
       <div className="col-lg-4">
         
       {/* <img className="img3 img-fluid" src="./IMG_8588.PNG" alt="#"/> */}
-      <img className="img3b img-fluid" src="./IMG_8589 (1).PNG" alt="#"/>
+      {/* <img className="img3b img-fluid" src={handcoding} alt="hand"/> */}
 
-      <img src='.\Hand coding-amico.png' alt='#' className="img3 img-fluid"/>
+      <img src={handcoding} alt={handcoding} className="img3 img-fluid"/>
     
       </div>
     
@@ -81,19 +100,26 @@ function App() {
       </div>
       
       </div>
-    
-      <div className="row mb-5">
+
+      {/* <div>
+        <dataSet/>
+      </div> */}
+      
       <header className="pro-header" id="project">Projects</header>
-      <div className="col-lg-4 pt-3 pb-3">
-      <img src="./food-landing.png" alt="food-interface" className="img-fluid pro-img"/> 
     
+      <div className="row mb-5 pro-border">
+      <div className="col-lg-4 pt-3 pb-3 project-section">
+      <img src={foodhub} alt="foodhub" className="img-fluid pro-img"/> 
+      <a href='https://foodhub-pro.netlify.app/' target="_blank" rel='noreferrer' className='pt-2'>Visit Foodhub now</a>
       </div>
-      <div className="col-lg-4 pt-3 pb-3">
-      <img src="./food-landing.png" alt="food-interface" className="img-fluid pro-img"/> 
+      <div className="col-lg-4 pt-3 pb-3 project-section">
+      <img src={metabnb} alt="food-interface" className="img-fluid pro-img"/>
+      <a href='https://foodhub-pro.netlify.app/' target="_blank" rel='noreferrer'>Visit Meta-bnb NFT now</a> 
     
      </div>
-    <div className="col-lg-4 pt-3 pb-3">
-    <img src="./food-landing.png" alt="food-interface" className="img-fluid pro-img"/> 
+    <div className="col-lg-4 pt-3 pb-3 project-section">
+    <img src={foodhub}  alt="foodhub" className="img-fluid pro-img"/> 
+    <a href='https://foodhub-pro.netlify.app/' target="_blank" rel='noreferrer'>Visit Foodhub now</a> 
     
     </div>
     
@@ -113,7 +139,7 @@ function App() {
         <div className="col-lg-4">
         <div className="p1-con">
           <p className="fs-5">Email at:</p>
-          <a href='mailto:Emmaxfans@gmail.com'><img src="./email (1).png" alt="twitter" className='img-footer'/></a>
+          <a href='mailto:Emmaxfans@gmail.com'><img src={email} alt="email" className='img-footer'/></a>
         </div>
         </div>
 
@@ -125,10 +151,10 @@ function App() {
     
           <p className="p2-con fs-5">Reach Me via</p>
         <div className="p2-con">
-        <a href='https://twitter.com/_Emmaxfans'><img src="./twitter (1).png" alt="twitter" className="img-footer"/></a>
-        <a href='https://facebook.com'><img src="./facebook (2).png" alt="twitter" className="img-footer"/></a>
-        <a href='https://github.com/Emmaxfans'><img src="./github (1).png" alt="twitter" className="img-footer"/></a>
-        <a href='mailto:Emmaxfans@gmail.com'><img src="./email (1).png" alt="twitter" className="mail-m img-footer"/></a>
+        <a href='https://twitter.com/_Emmaxfans' target="_blank" rel='noreferrer'><img src={twitter} alt="twitter" className="img-footer"/></a>
+        <a href='https://facebook.com' target="_blank" rel='noreferrer'><img src={facebook} alt="facebook" className="img-footer"/></a>
+        <a href='https://github.com/Emmaxfans' target="_blank" rel='noreferrer'><img src={github} alt="github" className="img-footer"/></a>
+        <a href='mailto:Emmaxfans@gmail.com' target="_blank" rel='noreferrer'><img src={email} alt="email" className="mail-m img-footer"/></a>
         </div>
        
         </div>
@@ -147,4 +173,4 @@ function App() {
   );
 }
 
-export default App;
+// export default App;

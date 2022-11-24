@@ -114,7 +114,7 @@ export default function App() {
       </div>
       <div className="col-lg-4 pt-3 pb-3 project-section">
       <img src={metabnb} alt="food-interface" className="img-fluid pro-img"/>
-      <a href='https://foodhub-pro.netlify.app/' target="_blank" rel='noreferrer'>Visit Meta-bnb NFT now</a> 
+      <a href='https://meta-bnb-nft.netlify.app/' target="_blank" rel='noreferrer'>Visit Meta-bnb NFT now</a> 
     
      </div>
     <div className="col-lg-4 pt-3 pb-3 project-section">

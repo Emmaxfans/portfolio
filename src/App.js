@@ -1,8 +1,5 @@
 import React from 'react';
 import './App.css';
-// import { Link } from 'react-router-dom'
-// import data from './Component/ContainerPro';
-// import PortfolioCard from './Component/PortfolioCard';
 import metabnb from './images/meta-bnb.png'
 import logo from './images/letter-e.png'
 import handcoding from './images/hand-coding.png'
@@ -14,12 +11,6 @@ import github from './images/github.png'
 
 
 export default function App() {
-  // const dataSet = data.map(function(items){
-  //   return(
-  //     <PortfolioCard 
-  //     {...items}/>
-  //   )
-  // })
 
   return (
     <div className="body">
@@ -55,35 +46,50 @@ export default function App() {
     </div>
     </div>
     </nav>
-    
-    
-    <div className="container con1">
-      <div className="row">
-    
-      <div className="col-lg-8">
-    
-      <div className="div-1">
-      <p className="p1">Hi</p>
-      <h2 className="h-2">I'm a Frontend <br/>Web Developer</h2>
-    
-      <a href="#contact"><button className='btn1'>Contact me</button></a>
-      </div>
-    
-      </div>
 
-      <div className="col-lg-4">
-        
-      {/* <img className="img3 img-fluid" src="./IMG_8588.PNG" alt="#"/> */}
-      {/* <img className="img3b img-fluid" src={handcoding} alt="hand"/> */}
+    {/* #####Body##### */}
+    
+    <div className='container con1'>
 
-      <img src={handcoding} alt={handcoding} className="img3 img-fluid"/>
+    <div className="row">
     
+    <div className="col-lg-7">
+  
+    <div className="div-1">
+    <p className="p1">Hi</p>
+    <h2 className="h-2">I'm a Frontend <br/>Web Developer</h2>
+  
+    <a href="#contact"><button className='btn1'>Contact me</button></a>
+    </div>
+
+
+  {/* #####Sidebar social icons#### */}
+
+    <span className='top-icons'>
+      <a href='https://twitter.com/_Emmaxfans' target="_blank" rel='noreferrer'><img src={twitter} alt="twitter" className=""/></a>
+      <a href='https://facebook.com' target="_blank" rel='noreferrer'><img src={facebook} alt="facebook" className=""/></a>
+      <a href='https://github.com/Emmaxfans' target="_blank" rel='noreferrer'><img src={github} alt="github" className=""/></a>
+      <a href='mailto:Emmaxfans@gmail.com' target="_blank" rel='noreferrer'><img src={email} alt="email" className=""/></a>
+      </span>
+  
+    </div>
+
+    <div className="col-lg-4">
+    <img src={handcoding} alt={handcoding} className="img3 img-fluid"/>
+    </div>
+
+    <div className="col-lg-1 tp-icons">
+      <div className='top-icons1'>
+      <a href='https://twitter.com/_Emmaxfans' target="_blank" rel='noreferrer'><img src={twitter} alt="twitter" className=""/></a>
+      <a href='https://facebook.com' target="_blank" rel='noreferrer'><img src={facebook} alt="facebook" className=""/></a>
+      <a href='https://github.com/Emmaxfans' target="_blank" rel='noreferrer'><img src={github} alt="github" className=""/></a>
+      <a href='mailto:Emmaxfans@gmail.com' target="_blank" rel='noreferrer'><img src={email} alt="email" className=""/></a>
+      </div> 
       </div>
+    </div>
+    </div>
     
-      </div>
-    
-     
-    
+    <div className="container">
       <div className='row mb-5'>
         <div className="col-lg-8">
     
@@ -92,20 +98,13 @@ export default function App() {
         <p className='p2'>My name is Emmanuel Adewoye, I am a certified frontend delevoper. proficient in the use of html,css,javascript and reactJs in building web Applications.</p>
         </div>
         <div className="col-lg-4">
-          {/* <img src='.\Hand coding-amico.png' alt='#' className="img3 img-fluid"/> */}
-
-          {/* <video src='.\Hand coding.mp4'/> */}
 
           
       </div>
       
       </div>
 
-      {/* <div>
-        <dataSet/>
-      </div> */}
-      
-      <header className="pro-header" id="project">Projects</header>
+      <header className="pro-header" id="project">Projects I have worked On </header>
     
       <div className="row mb-5 pro-border">
       <div className="col-lg-4 pt-3 pb-3 project-section">
@@ -126,51 +125,31 @@ export default function App() {
     </div>
     
     </div>
-    
-    <footer className="footer1">
-      <header className="header-footer" id="contact">Contact</header>
 
-      <hr className='hr1'/>
-    
-      <div className="Container container-fluid">
-    
-      <div className="row">
-       
-        <div className="col-lg-4">
-        <div className="p1-con">
-          <p className="fs-5">Email at:</p>
-          <a href='mailto:Emmaxfans@gmail.com'><img src={email} alt="email" className='img-footer'/></a>
-        </div>
-        </div>
 
-        <div className="col-lg-4">
-        <p className='text-center fs-5 create-footer'>&copy; Created by Emmaxfans</p>
-        </div>
+    {/* ####Footer##### */}
     
-        <div className="col-lg-4">
+    <footer>
+
+      <header className="header-footer" id="contact">Let's Connect & Collaborate</header>
+      <p className='p-con'>Have cool project or an existing project, and think I can help you with it? Feel free to contact me!</p>
     
-          <p className="p2-con fs-5">Reach Me via</p>
-        <div className="p2-con">
+      <div className="footer-icons"> 
         <a href='https://twitter.com/_Emmaxfans' target="_blank" rel='noreferrer'><img src={twitter} alt="twitter" className="img-footer"/></a>
         <a href='https://facebook.com' target="_blank" rel='noreferrer'><img src={facebook} alt="facebook" className="img-footer"/></a>
         <a href='https://github.com/Emmaxfans' target="_blank" rel='noreferrer'><img src={github} alt="github" className="img-footer"/></a>
-        <a href='mailto:Emmaxfans@gmail.com' target="_blank" rel='noreferrer'><img src={email} alt="email" className="mail-m img-footer"/></a>
-        </div>
-       
-        </div>
-    
-      </div>
-
-      <div className="col-lg-4">
-        <p className='text-center create-footer2'>&copy; Created by Emmaxfans</p>
+        <a href='mailto:Emmaxfans@gmail.com' target="_blank" rel='noreferrer'><img src={email} alt="email" className="img-footer"/></a>
         </div>
 
-    </div>
-    
+        
+
+        <div className="footer1">
+        <hr className='hr1'/>
+        <p className='footer-text'>&copy; Build with ReactJs by Emmaxfans</p>
+        </div>
+
   </footer>
-    
-    </div>
+  
+  </div>
   );
-}
-
-// export default App;
+  }

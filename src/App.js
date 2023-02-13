@@ -104,6 +104,10 @@ export default function App() {
       
       </div>
 
+      {/* <div>
+        <h3 className='fs-1'>Technologies I have worked with</h3>
+      </div> */}
+
       <header className="pro-header" id="project">Projects I have worked On </header>
     
       <div className="row mb-5 pro-border">

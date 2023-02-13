@@ -205,6 +205,16 @@
   width: 40px;
 }
 
+/* pop out on hover */
+
+img {
+  transition: 0.1s;
+  transition-delay: 0s;
+}
+img:hover {
+  transform: scale(1.2);
+}
+
 @media screen and (min-width: 280px) and (max-width: 768px){
 
   .body{

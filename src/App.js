@@ -61,8 +61,6 @@ export default function App() {
   
     <a href="#contact"><button className='btn1'>Contact me</button></a>
     </div>
-
-
   {/* #####Sidebar social icons#### */}
 
     <span className='top-icons'>
@@ -78,8 +76,8 @@ export default function App() {
     <img src={handcoding} alt={handcoding} className="img3 img-fluid"/>
     </div>
 
-    <div className="col-lg-1 tp-icons">
-      <div className='top-icons1'>
+    <div className="col-lg-1 tp-icons ">
+      <div className='top-icons1 position-fixed'>
       <a href='https://twitter.com/_Emmaxfans' target="_blank" rel='noreferrer'><img src={twitter} alt="twitter" className=""/></a>
       <a href='https://facebook.com' target="_blank" rel='noreferrer'><img src={facebook} alt="facebook" className=""/></a>
       <a href='https://github.com/Emmaxfans' target="_blank" rel='noreferrer'><img src={github} alt="github" className=""/></a>

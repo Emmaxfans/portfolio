@@ -269,6 +269,8 @@ img:hover {
   .img3{
     /* height: 500px; */
     padding-top: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: auto;
   }
 

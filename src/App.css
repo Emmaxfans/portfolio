@@ -63,19 +63,23 @@
 }
 
 .btn1{
-  width: 130px; 
+    width: 130px; 
     background-color: #a15ca1;
     color: #ffffff;
     height: 40px;
-    margin-top: 20px;
+    margin-top: 40px;
     border: none;
     border-radius: 5px;
 }
 
 .h-2{
-  font-size: 60px;
+  font-size: 45px;
   font-weight: 500;
   font-family: inter;
+}
+
+.h-2 span{
+  color: #a15ca1;
 }
 
 .p1{
@@ -108,8 +112,8 @@
 }
 
 .header-A{
-  padding-top: 120px;
-  font-size: 56px;
+  padding-top: 130px;
+  font-size: 45px;
   font-family: inter;
 }
 

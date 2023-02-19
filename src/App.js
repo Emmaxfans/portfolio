@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { Typewriter } from 'react-simple-typewriter';
 import metabnb from './images/meta-bnb.png'
 import logo from './images/letter-e.png'
 import handcoding from './images/hand-coding.png'
@@ -56,8 +57,23 @@ export default function App() {
     <div className="col-lg-7">
   
     <div className="div-1">
+
     <p className="p1">Hi</p>
-    <h2 className="h-2">I'm a Frontend <br/>Web Developer</h2>
+
+    <h2 className="h-2">
+    I'm a {' '}
+        <span>
+          <Typewriter
+            words={['Frontend Developer']}
+            loop={0}
+            cursor
+            cursorStyle='|'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          />
+        </span>
+      </h2>
   
     <a href="#contact"><button className='btn1'>Contact me</button></a>
     </div>

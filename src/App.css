@@ -8,7 +8,7 @@
 
 
 .con1{
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .navbar-collapse{
@@ -99,10 +99,10 @@
   max-width: 70%;
 }
 
-.img3{
+/* .img3{
   height: 98%;
   margin: auto;
-}
+} */
 
 
 .img3b{
@@ -271,7 +271,6 @@ img:hover {
     padding-top: 70px;
     padding-left: 10px;
     padding-right: 10px;
-    margin: auto;
   }
 
   .img3b{

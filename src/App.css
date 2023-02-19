@@ -8,7 +8,7 @@
 
 
 .con1{
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .navbar-collapse{
@@ -73,7 +73,7 @@
 }
 
 .h-2{
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 500;
   font-family: inter;
 }
@@ -189,7 +189,7 @@
   column-gap: 8px;
   text-align: right;
   margin-top: 90px;
-  margin-left: 100px;
+  margin-left: 95px;
 }
 
 .top-icons1 img{
@@ -232,6 +232,7 @@ img:hover {
   }
 
   .div-1{
+    padding-top: 60px;
     padding-left: 0px;
   }
 

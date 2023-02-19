@@ -54,7 +54,7 @@ export default function App() {
 
     <div className="row">
     
-    <div className="col-lg-7">
+    <div className="col-lg-6">
   
     <div className="div-1">
 
@@ -88,7 +88,7 @@ export default function App() {
   
     </div>
 
-    <div className="col-lg-4">
+    <div className="col-lg-5">
     <img src={handcoding} alt={handcoding} className="img3 img-fluid"/>
     </div>
 

@@ -1,7 +1,26 @@
+.blog{
+    /* height: 100vh; */
+    background-color: #d9d9d9;
+    margin: 0;
+}
+
 .blog-head h1{
     font-size: 40px;
     color: #000000;
     font-weight: 500;
     text-align: center;
     margin-top: 20px;
+}
+
+.blogspot{
+    height: 100vh;
+}
+
+.blogpost h2{
+    font-size: 30px;
+}
+
+.blogpost p{
+    font-size: 20px;
+    text-decoration-line: underline;
 }

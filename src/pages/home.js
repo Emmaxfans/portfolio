@@ -17,7 +17,7 @@ import Nav from '../Component/Nav';
 export default function home() {
 
   return (
-    <div className="body">
+    <div>
       {/* Nar bar */}
     <Nav/>
 

@@ -3,7 +3,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 // images
 import metabnb from '../Assets/images/meta-bnb.png'
-import handcoding from '../Assets/images/hand-coding.png'
+import handcoding from '../Assets/images/hand1.gif'
 import foodhub from '../Assets/images/food-landing.png'
 import email from '../Assets/images/email.png'
 import facebook from '../Assets/images/facebook.png'

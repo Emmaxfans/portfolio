@@ -1,14 +1,17 @@
 import React from 'react';
 import './App.css';
 import { Typewriter } from 'react-simple-typewriter';
+
+// images
 import metabnb from './images/meta-bnb.png'
-// import logo from './images/letter-e.png'
 import handcoding from './images/hand-coding.png'
 import foodhub from './images/food-landing.png'
 import email from './images/email.png'
 import facebook from './images/facebook.png'
 import twitter from './images/twitter.png'
 import github from './images/github.png'
+
+// component export
 import Nav from './Component/Nav';
 
 

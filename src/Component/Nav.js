@@ -1,10 +1,10 @@
 // styling
-import '../App.css';
+import '../Assets/styles/home.css';
 
 
 // images
 
-import logo from '../images/letter-e.png';
+import logo from '../Assets/images/letter-e.png';
 
 const Nav = () => {
   return (

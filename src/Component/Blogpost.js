@@ -1,5 +1,3 @@
-
-
 const Blogpost = (props) => {
   return (
         <div className="container blogpost">
@@ -7,9 +5,8 @@ const Blogpost = (props) => {
             <p>{props.Date}</p>
             <p>{props.Author}</p>
             {/* <hr className="hr1"/> */}
-            <section>
-                {props.Article}
-            </section>
+            <p>
+easy ways to learning and earning a living off tech in 2023</p>
             <hr/>
          </div>
   )

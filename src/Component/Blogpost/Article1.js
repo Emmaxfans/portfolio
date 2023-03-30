@@ -1,8 +1,15 @@
-const Article1 = () => {
+const Article1 = (props) => {
+  const date = props.date;
+  const author = props.author;
+  const body = props.body;
   return (
     <div className='container'>
 
 <h3>Guide to building an exclusive portfolio as a tech beginner</h3>
+
+<p>Date: {date}</p>
+<p>Author: {author}</p>
+<p> {body} </p>
 
 <p className="fs-5">
 Building an exclusive portfolio as a tech beginner is essential to showcase your skills and increase your chances of getting hired in the tech industry. Here's a guide on how to build an exclusive portfolio as a tech beginner.

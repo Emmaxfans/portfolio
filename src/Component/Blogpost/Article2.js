@@ -1,9 +1,17 @@
-import React from 'react'
 
-const Article2 = () => {
+const Article2 = (props) => {
+
+  const date = props.date;
+  const author = props.author;
+ 
+
   return (
     <div className='container mt-5'>
+      
         <h3>Easy ways to learning and earning a living off tech in 2023</h3>
+
+        <p>Date: {date}</p>
+        <p>Author: {author}</p>
 
         <p className='fs-5'>
         Learning and earning a living off tech has become easier in recent years, thanks to the rapid advancement of technology and the increasing demand for tech skills. In this article, we'll explore some of the easy ways to learn and earn a living off tech in 2023.

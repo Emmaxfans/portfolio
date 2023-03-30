@@ -1,12 +1,13 @@
-import React from 'react'
-
-const Article3 = () => {
+const Article3 = (props) => {
+  const date = props.date;
+  const author = props.author;
   return (
     <div className='container mt-5'>
         <h3>How to know and learn latest frontend development framework in tech space in 2023</h3>
-        <p className='fs-5'>
-        
+        <p>Date: {date}</p>
+        <p>Author: {author}</p>
 
+        <p className='fs-5'>
 Frontend development frameworks continue to evolve rapidly, and staying on top of the latest trends and techniques is crucial for any web developer looking to stay relevant in the tech space. Here are some tips on how to learn and keep up with the latest frontend development frameworks in 2023:
 
 Stay up-to-date with industry news and trends

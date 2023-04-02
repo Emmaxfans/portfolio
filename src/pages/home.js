@@ -31,48 +31,38 @@ export default function home() {
   
     <div className="div-1">
 
-    <p className="p1">Hi</p>
-
+    <span className="p1">Hi</span>
+    <span ><p class="wave">👋</p></span>  
     <h2 className="h-2">
-    I'm a {' '}
+     {' '}
         <span>
           <Typewriter
-            words={['Frontend Developer']}
+            words={["I'm Emmanuel Adewoye"]}
             loop={0}
             cursor
             cursorStyle='|'
             typeSpeed={70}
             deleteSpeed={50}
             delaySpeed={1000}
-          />
+          /> 
         </span>
       </h2>
-  
-    <a href="#contact"><button className='btn1'>Contact me</button></a>
-    </div>
-  {/* #####Sidebar social icons#### */}
 
-    <span className='top-icons'>
-      <a href='https://twitter.com/_Emmaxfans' target="_blank" rel='noreferrer'><img src={twitter} alt="twitter" className=""/></a>
-      <a href='https://facebook.com' target="_blank" rel='noreferrer'><img src={facebook} alt="facebook" className=""/></a>
-      <a href='https://github.com/Emmaxfans' target="_blank" rel='noreferrer'><img src={github} alt="github" className=""/></a>
-      <a href='mailto:Emmaxfans@gmail.com' target="_blank" rel='noreferrer'><img src={email} alt="email" className=""/></a>
+      <p class="title">FRONTEND SOFTWARE ENGINEER</p>
+
+      <p className='intro'>I'm a Frontend developer specialized in building exceptional websites, applications, and making the web accessible to everyone.</p>
+      <span>
+        <a href="#contact"><button className='btn1'>Hire Me</button></a>
+        <button className='btn2'>View my Works</button>
       </span>
+    </div>
   
     </div>
 
-    <div className="col-lg-5">
-    <img src={handcoding} alt={handcoding} className="img3 img-fluid"/>
+    <div className="col-lg-6">
+      <div className='div-hand'><img className="img3 img-fluid" src={handcoding} alt={handcoding} /></div>
     </div>
 
-    <div className="col-lg-1 tp-icons ">
-      <div className='top-icons1 position-fixed'>
-      <a href='https://twitter.com/_Emmaxfans' target="_blank" rel='noreferrer'><img src={twitter} alt="twitter" className=""/></a>
-      <a href='https://facebook.com' target="_blank" rel='noreferrer'><img src={facebook} alt="facebook" className=""/></a>
-      <a href='https://github.com/Emmaxfans' target="_blank" rel='noreferrer'><img src={github} alt="github" className=""/></a>
-      <a href='mailto:Emmaxfans@gmail.com' target="_blank" rel='noreferrer'><img src={email} alt="email" className=""/></a>
-      </div> 
-      </div>
     </div>
     </div>
     
@@ -90,10 +80,6 @@ export default function home() {
       </div>
       
       </div>
-
-      {/* <div>
-        <h3 className='fs-1'>Technologies I have worked with</h3>
-      </div> */}
 
       <header className="pro-header" id="project">Projects I have worked On </header>
     

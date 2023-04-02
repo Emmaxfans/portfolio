@@ -5,13 +5,10 @@ import { Typewriter } from 'react-simple-typewriter';
 import metabnb from '../Assets/images/meta-bnb.png'
 import handcoding from '../Assets/images/hand1.gif'
 import foodhub from '../Assets/images/food-landing.png'
-import email from '../Assets/images/email.png'
-import facebook from '../Assets/images/facebook.png'
-import twitter from '../Assets/images/twitter.png'
-import github from '../Assets/images/github.png'
 
 // component export
 import Nav from '../Component/Nav';
+import Icons from '../Component/Icons';
 
 
 export default function home() {
@@ -51,10 +48,12 @@ export default function home() {
       <p class="title">FRONTEND SOFTWARE ENGINEER</p>
 
       <p className='intro'>I'm a Frontend developer specialized in building exceptional websites, applications, and making the web accessible to everyone.</p>
+      <div className='btn-span'>
       <span>
-        <a href="#contact"><button className='btn1'>Hire Me</button></a>
-        <button className='btn2'>View my Works</button>
+        <a href="mailto:Emmaxfans@gmail.com"><button className='btn1'>Hire Me</button></a>
+        <a href='#mywork'><button className='btn2'>View my Works</button></a>        
       </span>
+      </div>
     </div>
   
     </div>
@@ -81,7 +80,7 @@ export default function home() {
       
       </div>
 
-      <header className="pro-header" id="project">Projects I have worked On </header>
+      <header className="pro-header" id="mywork">Projects I have worked On </header>
     
       <div className="row mb-5 pro-border">
       <div className="col-lg-4 pt-3 pb-3 project-section">
@@ -110,16 +109,8 @@ export default function home() {
 
       <header className="header-footer" id="contact">Let's Connect & Collaborate</header>
       <p className='p-con'>Have cool project or an existing project, and think I can help you with it? Feel free to contact me!</p>
-    
-      <div className="footer-icons"> 
-        <a href='https://twitter.com/_Emmaxfans' target="_blank" rel='noreferrer'><img src={twitter} alt="twitter" className="img-footer"/></a>
-        <a href='https://facebook.com' target="_blank" rel='noreferrer'><img src={facebook} alt="facebook" className="img-footer"/></a>
-        <a href='https://github.com/Emmaxfans' target="_blank" rel='noreferrer'><img src={github} alt="github" className="img-footer"/></a>
-        <a href='mailto:Emmaxfans@gmail.com' target="_blank" rel='noreferrer'><img src={email} alt="email" className="img-footer"/></a>
-        </div>
 
-        
-
+        <Icons/>
         <div className="footer1">
         <hr className='hr1'/>
         <p className='footer-text'>&copy; Build with ReactJs by Emmaxfans</p>

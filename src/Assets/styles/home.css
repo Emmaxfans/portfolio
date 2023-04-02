@@ -32,6 +32,7 @@
   .intro{
     font-size: 20px;
     margin: 20px 0;
+    width: 80%;
 
   }
 
@@ -39,6 +40,10 @@
     font-size: 15px;
     color: #777272;
     margin-top: 10px;
+  }
+  
+  .btn-span{
+    margin-top: 30px;
   }
   
   .img2{
@@ -78,16 +83,19 @@
       background-color: #a15ca1;
       color: #ffffff;
       padding: 12px 35px;
-      margin-top: 40px;
       border: 2px solid #a15ca1;
       border-radius: 4px;
   }
+
+  /* .btn1 a{
+    text-decoration: none;
+    color: #ffffff;
+  } */
 
   .btn2{
     background-color: transparent;
     color: #a15ca1;
     padding: 12px 35px;
-    margin-top: 20px;
     border: 2px solid #a15ca1;
     border-radius: 4px;
     font-size: 15px;
@@ -239,7 +247,7 @@
     transform: scale(1.2);
   }
   
-  @media screen and (min-width: 280px) and (max-width: 768px){
+  @media screen and (min-width: 320px) and (max-width: 768px){
   
     .body{
       width: 100%;
@@ -266,10 +274,26 @@
     .div-hand{
       padding-left: 40px;
     }
+
+    .btn1{
+      padding: 12px 35px;
+    }
+
+    .btn2{
+      padding: 12px 45px;
+    }
   
     .h-2{
       font-size: 30px;
       font-weight: 500;
+    }
+
+    .h-2 span{
+      font-size: 25px;
+    }
+
+    .intro{
+      width: 100%;
     }
   
     .header-A{

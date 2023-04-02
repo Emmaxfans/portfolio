@@ -21,14 +21,15 @@ const Nav = () => {
     <div className="collapse navbar-collapse nav-float" id="navbarNav">
     <ul className="navbar-nav">
       <li className="nav-item px-3">
-        <a className="nav-link active fs-font nav-colors" aria-current="page" href="./#">Home</a>
+        {/* <a className="nav-link active fs-font nav-colors" aria-current="page" href="./#">Home</a> */}
+        <a className="nav-link active fs-font nav-colors" href="#about">About</a>
       </li>
       <li className="nav-item px-3">
-        <a className="nav-link active fs-font nav-colors" href="/#project">Projects</a>
+        <a className="nav-link active fs-font nav-colors" href="/#mywork">View my Works</a>
       </li>
     
       <li className="nav-item px-3 signup2">
-        <a className="nav-link active fs-font nav-colors" href="#about">About</a>
+        <a className="nav-link active fs-font nav-colors" href="#work-experience">Work Experience</a>
       </li>
     
       <li className="nav-item px-3">

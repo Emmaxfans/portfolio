@@ -9,6 +9,7 @@ import foodhub from '../Assets/images/food-landing.png'
 // component export
 import Nav from '../Component/Nav';
 import Icons from '../Component/Icons';
+import SocialIcon from '../Component/SocialIcon';
 
 
 export default function home() {
@@ -54,6 +55,7 @@ export default function home() {
         <a href='#mywork'><button className='btn2'>View my Works</button></a>        
       </span>
       </div>
+      <SocialIcon />
     </div>
   
     </div>

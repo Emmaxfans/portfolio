@@ -1,8 +1,7 @@
 /* Desktop view  */
   .con1{
-    margin-top: 80px;
+    margin-top: 60px;
   }
-  
   .navbar-collapse{
     justify-content: flex-end;
   }
@@ -14,7 +13,7 @@
   }
   
   .div-1{
-    padding-top: 40px;
+    padding-top: 20px;
   }
   
   .div-2{
@@ -112,7 +111,7 @@
     font-size: 40px;
     font-weight: 500;
     font-family: inter;
-    margin-top: 20px;
+    margin-top: 30px;
   }
   
   .h-2 span{
@@ -209,7 +208,6 @@
   
   .footer-icons{
     text-align: center;
-    /* margin-top: 100px; */
     margin-bottom: 50px;
   }
   
@@ -276,11 +274,11 @@
     }
 
     .btn1{
-      padding: 12px 35px;
+      padding: 12px 34px;
     }
 
     .btn2{
-      padding: 12px 45px;
+      padding: 12px 38px;
     }
   
     .h-2{

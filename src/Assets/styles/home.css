@@ -147,11 +147,32 @@
   
   .header-A{
     padding-top: 130px;
-    font-size: 45px;
+    font-size: 35px;
+    font-weight: 300;
     font-family: inter;
   }
+
+  /* .about-con ul{
+    display: flex;
+    list-style: 2px circle #a5a5a5;
+    flex-direction: row;
+  }
+
+  .about-con ul li{
+    color: #000000;
+    font-size: 25px;
+  }
+
+  .about-con ul li::before{
+    color: #a15ca1;
+    content: \2022;
+  }
+
+  .about-con li:nth-child(2),.about-con li:nth-child(1){
+    margin-right: 50px;
+  } */
   
-  
+   
   .project-con{
     width: 250px;
     height: 250px;
@@ -296,14 +317,14 @@
   
     .header-A{
       padding-top: 60px;
-      font-size: 35px;
+      font-size: 30px;
       text-align: center;
-      font-weight: 300;
+      font-weight: 400;
       font-family: inter;
     }
   
     .p2{
-      font-size: 25px;
+      font-size: 20px;
       width: 100%;
       text-align: none;
       font-family: inter;

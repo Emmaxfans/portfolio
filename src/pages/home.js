@@ -73,7 +73,37 @@ export default function home() {
     
         
         <header className="header-A" id="about">About Me</header>
-        <p className='p2'>My name is Emmanuel Adewoye, I am a certified frontend delevoper. proficient in the use of html,css,javascript and reactJs in building web Applications.</p>
+        <p className='p2'>
+        I'm a self-taught Front-End Developer, Passion about UI effects and animations, building amazing web applications, creating dynamic user experiences and mobile responsive web applications .
+        </p>
+
+        {/* <p>My skill-set</p>
+        <div className='about-con'>
+        <ul>
+            <li>
+              Github
+            </li>
+            <li>
+              Github
+            </li>
+            <li>
+              Github
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+              Github
+            </li>
+            <li>
+              Github
+            </li>
+            <li>
+              Github
+            </li>
+        </ul>
+        </div> */}
+
         </div>
         <div className="col-lg-4">
 

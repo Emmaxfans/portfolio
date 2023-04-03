@@ -1,5 +1,5 @@
 // styling
-import '../Assets/styles/home.css';
+import '../Assets/styles/body.css';
 
 
 // images

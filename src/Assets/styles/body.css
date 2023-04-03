@@ -16,9 +16,9 @@
     padding-top: 20px;
   }
   
-  .div-2{
-    margin-top: 20px;
-  }
+  /* .div-2{
+    margin-top: 100px;
+  } */
 
   .wave {
     animation-name: wave-animation;

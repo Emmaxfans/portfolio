@@ -84,7 +84,7 @@ const Body = () => {
         </li>
         <li>
           {/* <i class="fa fa-tsx fab" /> */}
-          <p>TYPESCRIPT</p>
+          <p>FIGMA</p>
         </li>
       </div>
     </ul>
@@ -97,7 +97,7 @@ const Body = () => {
         </li>
         <li>
           {/* <i class="fa fa-css3 fab" /> */}
-          <p>FIGMA</p>
+          <p>TYPESCRIPT</p>
         </li>
         <li>
           {/* <i class="fa fa-figmas fab" /> */}

@@ -7,6 +7,7 @@ import SocialIcon from './SocialIcon';
 import metabnb from '../Assets/images/meta-bnb.png'
 import handcoding from '../Assets/images/hand1.gif'
 import foodhub from '../Assets/images/food-landing.png'
+// import twitter from '../Assets/images/twitter.png'
 // import guy from '../Assets/images/guy.PNG'
 
 const Body = () => {
@@ -68,32 +69,42 @@ const Body = () => {
     I'm a self-taught Front-End Developer, Passion about UI effects and animations, building amazing web applications, creating dynamic user experiences and mobile responsive web applications .
     </p>
 
-    {/* <p>My skill-set</p>
-    <div className='about-con'>
-    <ul>
-        <li>
-          Github
+    <p className='skill-p'>My skill-set</p>
+
+    <ul className='skill'>
+      <div className='flex'>
+      <li>
+          {/* <i class="fa fa-react fab" /> */}
+          {/* <img src={twitter} alt="social-icons" /> */}
+          <p>REACT</p>
         </li>
         <li>
-          Github
+          {/* <i class="fa fa-js fab" /> */}
+          <p>JAVASCRIPT</p>
         </li>
         <li>
-          Github
+          {/* <i class="fa fa-tsx fab" /> */}
+          <p>TYPESCRIPT</p>
         </li>
+      </div>
     </ul>
 
-    <ul>
+    <ul className='skill'>
+      <div className='flex'>
         <li>
-          Github
+          {/* <i class="fa fa-html5 fab" /> */}
+          <p>HTML & CSS</p>
         </li>
         <li>
-          Github
+          {/* <i class="fa fa-css3 fab" /> */}
+          <p>FIGMA</p>
         </li>
         <li>
-          Github
+          {/* <i class="fa fa-figmas fab" /> */}
+          <p>GITHUB</p>
         </li>
+      </div>
     </ul>
-    </div> */}
 
     </div>
     <div className="col-lg-4">

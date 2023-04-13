@@ -28,9 +28,9 @@ const Nav = () => {
         <a className="nav-link active fs-font nav-colors" href="/#mywork">View my Works</a>
       </li>
     
-      <li className="nav-item px-3 signup2">
+      {/* <li className="nav-item px-3 signup2">
         <a className="nav-link active fs-font nav-colors" href="#work-experience">Work Experience</a>
-      </li>
+      </li> */}
     
       <li className="nav-item px-3">
         <a className="nav-link active nav-colors" href="/#contact">Contact</a>

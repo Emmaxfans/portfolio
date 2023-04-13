@@ -50,10 +50,10 @@
   }
   
   .pro-header{
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   
   
@@ -65,6 +65,7 @@
   }
   
   .hr1{
+    margin-top: 30px;
     border: 1px solid #000000;
     opacity: 5;
   }
@@ -195,7 +196,7 @@
   
   .p-con{
     font-size: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     text-align: center;
   }
   
@@ -226,7 +227,6 @@
   
   .top-icons1 img{
     width: 40px;
-    /* background: #000000; */
   }
   
   
@@ -345,13 +345,17 @@
       height: 350px;
       margin: auto;
     }
+
+    .pro-header{
+      font-size: 25px;
+    }
   
-    .header-footer{
+    /* .header-footer{
       font-size: 25px;
       font-weight: 600;
       padding-top: 20px;
       margin-bottom: 10px;
-    }
+    } */
   
     .p-con{
       font-size: 20px;
@@ -411,22 +415,25 @@
     }
 
     /* skill set styling */
+
+    .skill-p{
+      text-align: center;
+    }
+
     .flex{
-      /* display: block; */
-      margin-bottom: 40px;
+      justify-content: center;
     }
   
     .flex li{
-      margin-right: 30px;
+      margin-right: 40px;
     }
 
     .skill-p{
       font-size: 20px;
-      text-align: center;
     }
 
     .flex p{
-      font-size: 15px;
+      font-size: 16px;
     }
   
   }

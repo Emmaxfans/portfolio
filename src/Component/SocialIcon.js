@@ -11,10 +11,10 @@ const SocialIcon = () => {
                 <a href='https://github.com/Emmaxfans' target="_blank" rel='noreferrer'><i class="fab fa-github glow"/></a>
             </li>
             <li>
-                <a href='/#' target="_blank" rel='noreferrer'><i class="fab fa-linkedin-in glow"/></a>
+                <a href='https://www.linkedin.com/in/emmaxfans' target="_blank" rel='noreferrer'><i class="fab fa-linkedin-in glow"/></a>
             </li>
             <li>
-                <a href='/#' target="_blank" rel='noreferrer'><i class="fab fa-instagram glow1"/></a>
+            <a href='https://malito:emmaxfans@gmail.com' target="_blank" rel='noreferrer'><i class="fa-regular fa-envelope glow1"/></a>
             </li>
         </ul>
       

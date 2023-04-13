@@ -124,10 +124,9 @@
   
   .p2{
     display: inline-block;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     text-align: left;
-    font-family: inter;
   }
   
   .img1a{
@@ -238,41 +237,25 @@
   /* skill set styling */
 
   .skill-p{
-    font-size: 25px;
+    font-size: 22px;
+    color: #525050;
     margin-top: 30px;
-    /* text-align: center; */
-    /* margin-left: 40%; */
   }
 
   .skill{
     justify-content: left;
-    /* text-align: left; */
 
   }
 
   .flex{
     display: flex;
-    /* padding-left: 20px; */
-    margin-bottom: 40px;
-    /* list-style: none; */
   }
 
   .flex li{
+    font-size: 20px;
     margin-right: 80px;
-    /* background-color: #a15ca1; */
-    /* height: 50px; */
-    /* width: 50px; */
   }
 
-  .flex li i{
-    justify-content: center;
-    padding: 5px 8px;
-    font-size: 40px;
-  }
-
-  .flex li p{
-    text-align: center;
-  }
   /* pop out on hover */
   
   img {

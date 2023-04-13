@@ -74,17 +74,13 @@ const Body = () => {
     <ul className='skill'>
       <div className='flex'>
       <li>
-          {/* <i class="fa fa-react fab" /> */}
-          {/* <img src={twitter} alt="social-icons" /> */}
-          <p>REACT</p>
+        <p>React</p>
         </li>
         <li>
-          {/* <i class="fa fa-js fab" /> */}
-          <p>JAVASCRIPT</p>
+          <p>Javascript</p>
         </li>
         <li>
-          {/* <i class="fa fa-tsx fab" /> */}
-          <p>FIGMA</p>
+          <p>Typescript</p>
         </li>
       </div>
     </ul>
@@ -92,16 +88,13 @@ const Body = () => {
     <ul className='skill'>
       <div className='flex'>
         <li>
-          {/* <i class="fa fa-html5 fab" /> */}
           <p>HTML & CSS</p>
         </li>
         <li>
-          {/* <i class="fa fa-css3 fab" /> */}
-          <p>TYPESCRIPT</p>
+          <p>Github</p>
         </li>
         <li>
-          {/* <i class="fa fa-figmas fab" /> */}
-          <p>GITHUB</p>
+          <p>Figma</p>
         </li>
       </div>
     </ul>

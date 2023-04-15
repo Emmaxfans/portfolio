@@ -4,10 +4,10 @@ import { Typewriter } from 'react-simple-typewriter';
 import SocialIcon from './SocialIcon';
 
 // images
-import metabnb from '../Assets/images/meta-bnb.png'
-import handcoding from '../Assets/images/hand1.gif'
-import foodhub from '../Assets/images/food-landing.png'
-// import twitter from '../Assets/images/twitter.png'
+import metabnb from '../Assets/images/meta-bnb.png';
+import handcoding from '../Assets/images/hand1.gif';
+import foodhub from '../Assets/images/food-landing.png';
+import calculator from '../Assets/images/calculator.png';
 // import guy from '../Assets/images/guy.PNG'
 
 const Body = () => {
@@ -119,8 +119,8 @@ const Body = () => {
 
  </div>
 <div className="col-lg-4 pt-3 pb-3 project-section">
-<img src={foodhub}  alt="foodhub" className="img-fluid pro-img"/> 
-<a href='https://foodhub-pro.netlify.app/' target="_blank" rel='noreferrer'>Visit Foodhub now</a> 
+<img src={calculator}  alt="foodhub" className="img-fluid pro-img"/> 
+<a href='https://voice-calculator.netlify.app/' target="_blank" rel='noreferrer'>Visit voice calculator now</a> 
 
 </div>
 

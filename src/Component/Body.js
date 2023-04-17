@@ -21,8 +21,8 @@ const Body = () => {
 
 <div className="div-1">
 
-<span className="p1">Hi</span>
-<span ><p class="wave">👋</p></span>  
+<span className="p1">Hi <p className="wave">👋</p></span>
+
 <h2 className="h-2">
  {' '}
     <span>

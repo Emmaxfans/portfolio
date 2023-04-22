@@ -8,6 +8,7 @@ import Nav from '../Component/Nav'
 import Article1 from '../Component/Blogpost/Article1';
 import Article2 from '../Component/Blogpost/Article2';
 import Article3 from '../Component/Blogpost/Article3';
+import Article4 from '../Component/Blogpost/Article4';
 
 const blog = () => {
   return (
@@ -25,6 +26,9 @@ const blog = () => {
          </div>
          <div>
              <Article3 date = "28/03/2023" author = "Emmaxfans" />
+         </div>
+         <div>
+           <Article4 date = "20/04/2023" author = "Emmaxfans" />
          </div>
     </div>
   )

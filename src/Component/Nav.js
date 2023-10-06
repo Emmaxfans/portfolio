@@ -5,7 +5,7 @@ import '../Assets/styles/body.css';
 // images
 
 import logo from '../Assets/images/letter-e.png';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
@@ -29,10 +29,9 @@ const Nav = () => {
         <a className="nav-link active fs-font nav-colors" href="/#mywork">View my Works</a>
       </li>
     
-      <li className="nav-item px-3 signup2">
-        {/* <a className="nav-link active fs-font nav-colors" href="#work-experience">Blog</a> */}
+      {/* <li className="nav-item px-3 signup2">
         <Link to='/blog' className="nav-link active fs-font nav-colors" >Blog</Link>
-      </li>
+      </li> */}
     
       <li className="nav-item px-3">
         <a className="nav-link active nav-colors" href="/#contact">Contact</a>

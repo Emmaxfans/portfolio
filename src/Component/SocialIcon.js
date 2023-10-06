@@ -1,11 +1,13 @@
 import "../Assets/styles/icons.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faXTwitter } from "@fortawesome/free-brands-svg-icons"
 
 const SocialIcon = () => {
   return (
     <div className="social-icons" style={{marginLeft: "-40px", marginTop: "50px"}}>
         <ul>
             <li>
-                <a href='https://twitter.com/_Emmaxfans' target="_blank" rel='noreferrer'><i class="fab fa-twitter glow"/></a>
+                <a href='https://twitter.com/_Emmaxfans' target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faXTwitter} className="x-icon" /></a>
             </li>
             <li>
                 <a href='https://github.com/Emmaxfans' target="_blank" rel='noreferrer'><i class="fab fa-github glow"/></a>

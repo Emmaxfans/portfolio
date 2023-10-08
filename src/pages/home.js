@@ -1,7 +1,9 @@
 // component export
 import Nav from '../Component/Nav';
-import Body from '../Component/Body';
+import Hero from '../Component/Hero/Hero';
 import Footer from '../Component/Footer';
+import Skill from '../Component/Skill/Skill';
+
 
 
 export default function home() {
@@ -9,7 +11,8 @@ export default function home() {
   return (
     <div>
       <Nav/>
-      <Body/>
+      <Hero/>
+      <Skill/>
       <Footer/>
     </div>
   );

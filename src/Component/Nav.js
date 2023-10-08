@@ -1,5 +1,5 @@
 // styling
-import '../Assets/styles/body.css';
+import '../Assets/styles/Hero.css';
 
 
 // images

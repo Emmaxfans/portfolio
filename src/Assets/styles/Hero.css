@@ -1,7 +1,4 @@
 /* Desktop view  */
-  .con1{
-    margin-top: 60px;
-  }
   .navbar-collapse{
     justify-content: flex-end;
   }
@@ -12,53 +9,9 @@
     font-weight: 500;
   }
   
-  .div-1{
-    padding-top: 20px;
-  }
-  
   /* .div-2{
     margin-top: 100px;
   } */
-
-  .wave {
-    display: flex;
-    flex-direction: row;
-    word-spacing: 20px;
-    animation-name: wave-animation;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-    transform-origin: 70% 70%;
-    display: inline-block;
-  }
-
-  @keyframes wave-animation{
-    0% {transform: rotate( 0.0deg);}
-    10% {transform: rotate( 14deg);}
-    20% {transform: rotate( -8deg);}
-    30% {transform: rotate( 14deg);}
-    40% {transform: rotate( -4deg);}
-    50% {transform: rotate( 10deg);}
-    60% {transform: rotate( 0.0deg);}
-    100% {transform: rotate( 0.0deg);}
-
-  }
-
-  .intro{
-    font-size: 20px;
-    margin: 20px 0;
-    width: 80%;
-
-  }
-
-  .title{
-    font-size: 15px;
-    color: #777272;
-    margin-top: 10px;
-  }
-  
-  .btn-span{
-    margin-top: 30px;
-  }
   
   .img2{
     display: inline-block;
@@ -94,49 +47,6 @@
     font-size: 24px;
   }
   
-  .btn1{
-      background-color: #a15ca1;
-      color: #ffffff;
-      padding: 12px 35px;
-      border: 2px solid #a15ca1;
-      border-radius: 4px;
-  }
-
-  /* .btn1 a{
-    text-decoration: none;
-    color: #ffffff;
-  } */
-
-  .btn2{
-    background-color: transparent;
-    color: #a15ca1;
-    padding: 12px 35px;
-    border: 2px solid #a15ca1;
-    border-radius: 4px;
-    font-size: 15px;
-    font-weight: 400;
-    margin-left: 30px;
-}
-
-.btn2:hover{
-  color: #ffffff;
-  background-color: #a15ca1;
-}
-  
-  .h-2{
-    font-size: 40px;
-    font-weight: 500;
-    font-family: inter;
-    margin-top: 30px;
-  }
-  
-  .h-2 span{
-    color: #a15ca1;
-  }
-  
-  .p1{
-    font-size: 25px;
-  }
   
   .p2{
     display: inline-block;
@@ -149,16 +59,7 @@
     border: 3px solid black;
     max-width: 70%;
   }
-  
-  .div-hand{
-    padding-left:100px;
-  }
-  
-  .img3b{
-    display: none;
-    height: 98%;
-    margin: auto;
-  }
+
   
   .header-A{
     padding-top: 130px;
@@ -286,50 +187,6 @@
     .body{
       width: 100%;
     }
-   .btn1 a{
-      text-decoration: none;
-      color: black;
-    }
-  
-    .con1{
-      margin-top: 10px;
-      padding: 0px 20px;
-    }
-  
-    .div-padding{
-      padding-left: 15px;
-    }
-  
-    .div-1{
-      padding-top: 60px;
-      padding-left: 0px;
-    }
-
-    .div-hand{
-      padding-left: 40px;
-    }
-
-    .btn1{
-      padding: 12px 34px;
-    }
-
-    .btn2{
-      padding: 12px 38px;
-    }
-  
-    .h-2{
-      font-size: 30px;
-      font-weight: 500;
-    }
-
-    .h-2 span{
-      font-size: 25px;
-    }
-
-    .intro{
-      width: 100%;
-    }
-  
     .header-A{
       padding-top: 60px;
       font-size: 30px;
@@ -349,10 +206,7 @@
       max-width: 50%;
     }
   
-    .img3{
-      padding-top: 70px;
-      padding-right: 40px;
-    }
+  
   
     .img3b{
       display: none;

@@ -5,8 +5,7 @@ const Blogpost = (props) => {
             <p>{props.Date}</p>
             <p>{props.Author}</p>
             {/* <hr className="hr1"/> */}
-            <p>
-easy ways to learning and earning a living off tech in 2023</p>
+            <p>easy ways to learning and earning a living off tech in 2023</p>
             <hr/>
          </div>
   )

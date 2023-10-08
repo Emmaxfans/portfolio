@@ -8,10 +8,7 @@
     font-size: 20px;
     font-weight: 500;
   }
-  
-  /* .div-2{
-    margin-top: 100px;
-  } */
+
   
   .img2{
     display: inline-block;
@@ -48,12 +45,7 @@
   }
   
   
-  .p2{
-    display: inline-block;
-    font-size: 20px;
-    font-weight: 400;
-    text-align: left;
-  }
+
   
   .img1a{
     border: 3px solid black;
@@ -61,12 +53,6 @@
   }
 
   
-  .header-A{
-    padding-top: 130px;
-    font-size: 35px;
-    font-weight: 300;
-    font-family: inter;
-  }
 
   .project-con{
     width: 250px;
@@ -150,27 +136,6 @@
     width: 40px;
   }
 
-  /* skill set styling */
-
-  .skill-p{
-    font-size: 22px;
-    color: #525050;
-    margin-top: 30px;
-  }
-
-  .skill{
-    justify-content: left;
-
-  }
-
-  .flex{
-    display: flex;
-  }
-
-  .flex li{
-    font-size: 20px;
-    margin-right: 80px;
-  }
 
   /* pop out on hover */
   
@@ -187,20 +152,7 @@
     .body{
       width: 100%;
     }
-    .header-A{
-      padding-top: 60px;
-      font-size: 30px;
-      text-align: center;
-      font-weight: 400;
-      font-family: inter;
-    }
   
-    .p2{
-      font-size: 20px;
-      width: 100%;
-      text-align: none;
-      font-family: inter;
-    }
   
     .img1a{
       max-width: 50%;
@@ -281,28 +233,6 @@
   
     .pro-border{
       border: none;
-    }
-
-    /* skill set styling */
-
-    .skill-p{
-      text-align: center;
-    }
-
-    .flex{
-      justify-content: center;
-    }
-  
-    .flex li{
-      margin-right: 40px;
-    }
-
-    .skill-p{
-      font-size: 20px;
-    }
-
-    .flex p{
-      font-size: 16px;
     }
   
   }

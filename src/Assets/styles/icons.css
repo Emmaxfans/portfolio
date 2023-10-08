@@ -64,3 +64,10 @@ ul li i{
         justify-content: center;
       }
 }
+
+
+@media screen and (min-width: 679px) and (max-width: 912px){
+    .social-icons ul{
+        justify-content: center;
+      }
+}

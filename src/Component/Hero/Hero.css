@@ -36,6 +36,11 @@
     padding-right: 40px;
   }
 
+  .guy-img{
+    width: 100vw;
+    height: 81.5vh;
+  }
+
   .h-2{
     font-size: 40px;
     font-weight: 500;
@@ -97,14 +102,59 @@
     background-color: #a15ca1;
   }
 
-  .div-hand{
+  /* .div-hand{
     padding-left:100px;
-  }
+  } */
   
   .img3b{
     display: none;
     height: 98%;
     margin: auto;
+  }
+
+
+  /* FLIPPED STYLING */
+
+  .box {
+    /* width: 200px; */
+    height: 200px;
+    /* perspective: 1000px; */
+    position: relative;
+  }
+  
+  .front,
+  .back {
+    /* width: 100%; */
+    /* height: 100%; */
+    position: absolute;
+    transition: transform 0.5s;
+    backface-visibility: hidden;
+  }
+  
+  
+  .front {
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .back {
+    /* width: 100%; */
+    /* height: 100%; */
+    background-color: #e74c3c;
+    transform: rotateY(180deg);
+    display: none;
+  }
+  
+  .box.flipped .front {
+    transform: rotateY(180deg);
+    display: none;
+  }
+  
+  .box.flipped .back {
+    transform: rotateY(0deg);
+    display: block;
   }
 
   /* MOBILE VIEW */

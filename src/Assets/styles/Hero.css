@@ -136,16 +136,21 @@
     width: 40px;
   }
 
+  .div-hand{
+    padding-left:100px;
+  }
+
 
   /* pop out on hover */
   
-  img {
+  /* img {
     transition: 0.1s;
     transition-delay: 0s;
   }
   img:hover {
     transform: scale(1.2);
-  }
+  } */
+  
   
   @media screen and (min-width: 320px) and (max-width: 768px){
   

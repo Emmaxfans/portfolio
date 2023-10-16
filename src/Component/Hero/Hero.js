@@ -1,10 +1,25 @@
 import './Hero.css';
-import { Typewriter } from 'react-simple-typewriter';
 import handcoding from '../../Assets/images/hand1.gif';
-
+import guy from '../../Assets/images/guy.PNG';
 import SocialIcon from '../SocialIcon';
+import { Typewriter } from 'react-simple-typewriter';
+import { useState } from 'react';
 
 const Hero = () => {
+  const [isFlipped, setIsFlipped] = useState(false);
+  const [isBackVisible, setIsBackVisible] = useState(false);
+
+  const handleMouseEnter = () => {
+    if (isFlipped) {
+      setIsBackVisible(true);
+    }
+    setIsFlipped(!isFlipped);
+  };
+
+  const handleMouseLeave = () => {
+    setIsBackVisible(false);
+  };
+
   return (
     <div>
         <div className='container con1'>
@@ -47,7 +62,26 @@ const Hero = () => {
 </div>
 
 <div className="col-lg-6">
-  <div className='div-hand'><img className="img3 img-fluid" src={handcoding} alt="handcoding" /></div>
+{/* <div className={` ${isFlipped ? 'flipped' : ''}`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+  <div className='div-hand front'>
+    <img className="img3 img-fluid" src={handcoding} alt="handcoding" />
+  </div>
+
+  <div className={`back ${isBackVisible ? 'visible' : ''}`}>
+     <h3>THIS IS THE BACK</h3>
+      </div>
+
+    </div> */}
+
+  <div className={`box ${isFlipped ? 'flipped' : ''}`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+      <div className="front">
+      <img className="img3 img-fluid" src={handcoding} alt="handcoding" />
+      </div>
+      <div className={`back ${isBackVisible ? 'visible' : ''}`}>
+      <img className="guy-img img-fluid" src={guy} alt="handcoding" />
+      </div>
+    </div>
+
 </div>
 </div>
 </div>

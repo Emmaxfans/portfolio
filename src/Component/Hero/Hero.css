@@ -32,13 +32,18 @@
   }
 
   .img3{
-    padding-top: 70px;
-    padding-right: 40px;
+    /* padding-top: 70px; */
+    /* padding-right: 40px; */
+    border-radius: 10px;
+    border: 0.5px solid  #a15ca1;
   }
 
   .guy-img{
     width: 100vw;
-    height: 81.5vh;
+    height: 75vh;
+    border-radius: 10px;
+    border: 0.5px solid  #a15ca1;
+    /* max-height: 100%; */
   }
 
   .h-2{
@@ -120,6 +125,12 @@
     height: 200px;
     /* perspective: 1000px; */
     position: relative;
+        /* transform-style: preserve-3d; */
+    /* animation: rotate 5s linear alternate; */
+  }
+
+  .back{
+    /* height: 30vh; */
   }
   
   .front,
@@ -129,6 +140,9 @@
     position: absolute;
     transition: transform 0.7s;
     backface-visibility: hidden;
+    /* transform-style: preserve-3d;
+    animation: rotate 5s linear infinite; */
+
   }
   
   
@@ -137,6 +151,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
   }
   
   .back {
@@ -145,17 +160,34 @@
     /* background-color: #e74c3c; */
     transform: rotateY(180deg);
     display: none;
+
   }
   
   .box.flipped .front {
     transform: rotateY(180deg);
     display: none;
+    /* transform-style: preserve-3d;
+    animation: rotate 5s linear infinite; */
+
   }
   
   .box.flipped .back {
     transform: rotateY(0deg);
     display: block;
+    /* transform-style: preserve-3d;
+    animation: rotate 5s linear infinite; */
+
   }
+
+  @keyframes rotate {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
 
 
   /* MOBILE VIEW */

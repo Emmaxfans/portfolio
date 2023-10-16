@@ -1,0 +1,10 @@
+
+    /* pop out on hover */
+  
+    .pro-img {
+        transition: 0.1s;
+        transition-delay: 0s;
+      }
+      .pro-img:hover {
+        transform: scale(1.2);
+      }

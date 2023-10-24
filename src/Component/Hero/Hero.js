@@ -78,7 +78,7 @@ const Hero = () => {
       <img className="img3 img-fluid" src={handcoding} alt="handcoding" />
       </div>
       <div className={`back ${isBackVisible ? 'visible' : ''}`}>
-      <img className="guy-img img-fluid" src={guy} alt="handcoding" />
+      <img className="guy-img img-fluid" src={handcoding} alt="handcoding" />
       </div>
     </div>
 

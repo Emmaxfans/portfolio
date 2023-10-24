@@ -1,6 +1,6 @@
 import './Hero.css';
 import handcoding from '../../Assets/images/hand1.gif';
-import guy from '../../Assets/images/guy1.PNG';
+// import guy from '../../Assets/images/guy1.PNG';
 import SocialIcon from '../SocialIcon';
 import { Typewriter } from 'react-simple-typewriter';
 import { useState } from 'react';

@@ -1,6 +1,6 @@
 import './Hero.css';
 import handcoding from '../../Assets/images/hand1.gif';
-// import guy from '../../Assets/images/guy1.PNG';
+import guy from '../../Assets/images/guy1.PNG';
 import SocialIcon from '../SocialIcon';
 import { Typewriter } from 'react-simple-typewriter';
 import { useState } from 'react';
@@ -75,10 +75,10 @@ const Hero = () => {
 
   <div className={`box ${isFlipped ? 'flipped' : ''}`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       <div className="front">
-      <img className="img3 img-fluid" src={handcoding} alt="handcoding" />
+      <img className="img3 img-fluid" src={handcoding} alt="hand-coding" />
       </div>
       <div className={`back ${isBackVisible ? 'visible' : ''}`}>
-      <img className="img3 img-fluid" src={handcoding} alt="handcoding" />
+      <img className="img3 img-fluid" src={handcoding} alt="hand-coding" />
       </div>
     </div>
 

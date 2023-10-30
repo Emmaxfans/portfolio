@@ -1,6 +1,6 @@
 /* Desktop view  */
 .con1{
-    height: 85vh;
+    /* height: 85vh; */
     margin-top: 30px;
   }
  
@@ -32,6 +32,7 @@
   }
 
   .img3{
+    padding: 5% 10%;
     /* padding-top: 70px; */
     /* padding-right: 40px; */
     /* border-radius: 10px; */
@@ -198,9 +199,13 @@
         padding: 0px 20px;
       }
 
+      .hero1{
+        height: 100vh;
+      }
+
       .img3{
         padding-top: 0px;
-        /* padding-right: 40px; */
+        padding-right: 40px;
       }
 
       .btn1 a{
@@ -220,7 +225,7 @@
       }
   
       .div-hand{
-        padding-left: 40px;
+        /* padding-left: 40px; */
       }
   
       .btn1{

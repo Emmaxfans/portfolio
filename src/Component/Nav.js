@@ -1,7 +1,5 @@
 // styling
 import '../Assets/styles/Hero.css';
-
-
 // images
 
 import logo from '../Assets/images/letter-e.png';
